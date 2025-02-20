@@ -1,0 +1,1 @@
+# Utilisation les Linters pour vérification du code
