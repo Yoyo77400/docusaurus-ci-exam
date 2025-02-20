@@ -1,8 +1,7 @@
 name: docusaurus
-run-name: ${{ github.actor }} Docusaurus GitHub Action
+run-name: ${{github.actor}} Docusaurus GitHub Action
 
-on:
-  push:
+on: [push]
 
 jobs:
   Run-Docusaurus:
