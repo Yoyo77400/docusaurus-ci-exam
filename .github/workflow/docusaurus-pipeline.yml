@@ -3,8 +3,6 @@ run-name: ${{ github.actor }} Docusaurus GitHub Action
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   Run-Docusaurus:
