@@ -1,0 +1,17 @@
+name: docusaurus
+run-name: ${{ github.actor }} Docusaurus GitHub Action
+
+on:
+  push:
+
+jobs:
+  Run-Docusaurus:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: run-docusaurus
+        - uses: actions/setup-node@v4
+          with:
+            node-version: '20'
+        - run: npm run build
+    

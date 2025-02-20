@@ -16,8 +16,6 @@
 ```
 on:
   push:
-    branches:
-      - main
 
 jobs:
   Run-Docusaurus:
